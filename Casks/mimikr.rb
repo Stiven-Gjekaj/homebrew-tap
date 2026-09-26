@@ -1,8 +1,8 @@
 # scripts/homebrew-cask.sh in the mimikr repository writes this file from the
 # zip of the release. Change the script, and not this file.
 cask "mimikr" do
-  version "1.0.1"
-  sha256 "8d889802d40ed75af18f573f466a4cd1d0f504f53c1c15cbe6efd3303f37e2d3"
+  version "1.0.2"
+  sha256 "2c7c3f35c541a70fce7f4b1c263ba2ff1a99f561b5d17a1e1fe5a592b23bceb7"
 
   url "https://github.com/Stiven-Gjekaj/mimikr/releases/download/v#{version}/mimikr-#{version}-macos-arm64.zip"
   name "mimikr"
