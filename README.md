@@ -1,4 +1,4 @@
-# The Homebrew tap of Burnout
+# The Homebrew tap of Burnout and mimikr
 
 [Burnout](https://github.com/Stiven-Gjekaj/burnout) writes a bootable USB
 drive from the command line. The commands are the same on Windows, on macOS
@@ -15,6 +15,18 @@ download against its SHA-256.
 Burnout erases the drive that you give it, and nothing undoes that. Read
 [TERMS.md](https://github.com/Stiven-Gjekaj/burnout/blob/main/TERMS.md)
 before you run it.
+
+## mimikr
+
+[mimikr](https://github.com/Stiven-Gjekaj/mimikr) is a chatbot that writes
+like a person you know, with a language model on your own computer.
+
+    brew install --cask --no-quarantine stiven-gjekaj/tap/mimikr
+
+The cask installs the macOS application of the release, for Apple silicon and
+macOS 13 or later. No paid certificate signs it, so `--no-quarantine` keeps
+macOS from refusing to open it. `scripts/homebrew-cask.sh` in the mimikr
+repository writes `Casks/mimikr.rb` from the zip of each release.
 
 ## Where the formula comes from
 
