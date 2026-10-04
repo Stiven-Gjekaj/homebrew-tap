@@ -1,4 +1,4 @@
-# The Homebrew tap of Burnout and mimikr
+# The Homebrew tap of Burnout, mimikr, and HotDogStand
 
 [Burnout](https://github.com/Stiven-Gjekaj/burnout) writes a bootable USB
 drive from the command line. The commands are the same on Windows, on macOS
@@ -27,6 +27,18 @@ The cask installs the macOS application of the release, for Apple silicon and
 macOS 13 or later. No paid certificate signs it, so `--no-quarantine` keeps
 macOS from refusing to open it. `scripts/homebrew-cask.sh` in the mimikr
 repository writes `Casks/mimikr.rb` from the zip of each release.
+
+## HotDogStand
+
+[HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand) is a ticket
+manager on your own computer, with the look of Windows 7.
+
+    brew install --cask --no-quarantine stiven-gjekaj/tap/hotdogstand
+
+The cask installs the macOS application of the release, for Apple silicon and
+for Intel. No paid certificate signs it, so `--no-quarantine` keeps macOS from
+refusing to open it. `scripts/homebrew-cask.sh` in the HotDogStand repository
+writes `Casks/hotdogstand.rb` from the `SHA256SUMS` of each release.
 
 ## Where the formula comes from
 
