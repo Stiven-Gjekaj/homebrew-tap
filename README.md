@@ -1,4 +1,4 @@
-# The Homebrew tap of Burnout, mimikr, and HotDogStand
+# The Homebrew tap of Burnout, mimikr, HotDogStand and AllTheTools
 
 [Burnout](https://github.com/Stiven-Gjekaj/burnout) writes a bootable USB
 drive from the command line. The commands are the same on Windows, on macOS
@@ -39,6 +39,19 @@ The cask installs the macOS application of the release, for Apple silicon and
 for Intel. No paid certificate signs it, so `--no-quarantine` keeps macOS from
 refusing to open it. `scripts/homebrew-cask.sh` in the HotDogStand repository
 writes `Casks/hotdogstand.rb` from the `SHA256SUMS` of each release.
+
+## AllTheTools
+
+[AllTheTools](https://github.com/Stiven-Gjekaj/AllTheTools) is one command,
+`att`, with twenty tools that one system has and the other two do not, such
+as lsusb, f3probe and caffeinate.
+
+    brew install stiven-gjekaj/tap/allthetools
+
+The formula installs the binary of the release: for macOS on Apple silicon
+and on Intel, and for Linux on arm64 and on x86_64. `scripts/homebrew-formula.sh`
+in the AllTheTools repository writes `Formula/allthetools.rb` from the
+`SHA256SUMS` of each release.
 
 ## Where the formula comes from
 
