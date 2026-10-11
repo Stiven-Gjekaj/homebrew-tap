@@ -1,4 +1,4 @@
-# The Homebrew tap of Burnout, mimikr, HotDogStand and AllTheTools
+# The Homebrew tap of Burnout, mimikr, HotDogStand, AllTheTools and OnyxDiskInfo
 
 [Burnout](https://github.com/Stiven-Gjekaj/burnout) writes a bootable USB
 drive from the command line. The commands are the same on Windows, on macOS
@@ -52,6 +52,24 @@ The formula installs the binary of the release: for macOS on Apple silicon
 and on Intel, and for Linux on arm64 and on x86_64. `scripts/homebrew-formula.sh`
 in the AllTheTools repository writes `Formula/allthetools.rb` from the
 `SHA256SUMS` of each release.
+
+## OnyxDiskInfo
+
+[OnyxDiskInfo](https://github.com/Stiven-Gjekaj/OnyxDiskInfo) reads the
+health of every disk, and tests, formats and erases it. The command line is
+`onyx`, and the app is in the style of CrystalDiskInfo.
+
+    brew install stiven-gjekaj/tap/onyxdiskinfo
+    brew install --cask stiven-gjekaj/tap/onyxdiskinfo
+
+The formula installs the command line of the release: for macOS on Apple
+silicon and on Intel, and for Linux on arm64 and on x86_64. The cask installs
+the macOS app, for Apple silicon and for Intel. The formula and the cask have
+the same name, so the app takes `--cask`. No paid certificate signs the app,
+so macOS asks before it opens the app the first time.
+`scripts/homebrew-formula.sh` and `scripts/homebrew-cask.sh` in the
+OnyxDiskInfo repository write `Formula/onyxdiskinfo.rb` and
+`Casks/onyxdiskinfo.rb` from the `SHA256SUMS` of each release.
 
 ## Where the formula comes from
 
