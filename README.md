@@ -21,24 +21,26 @@ before you run it.
 [mimikr](https://github.com/Stiven-Gjekaj/mimikr) is a chatbot that writes
 like a person you know, with a language model on your own computer.
 
-    brew install --cask --no-quarantine stiven-gjekaj/tap/mimikr
+    brew install --cask stiven-gjekaj/tap/mimikr
 
 The cask installs the macOS application of the release, for Apple silicon and
-macOS 13 or later. No paid certificate signs it, so `--no-quarantine` keeps
-macOS from refusing to open it. `scripts/homebrew-cask.sh` in the mimikr
-repository writes `Casks/mimikr.rb` from the zip of each release.
+macOS 13 or later. No paid certificate signs it, so macOS asks before it opens
+it the first time: open System Settings, then Privacy & Security, and choose
+Open Anyway. `scripts/homebrew-cask.sh` in the mimikr repository writes
+`Casks/mimikr.rb` from the zip of each release.
 
 ## HotDogStand
 
 [HotDogStand](https://github.com/Stiven-Gjekaj/HotDogStand) is a ticket
 manager on your own computer, with the look of Windows 7.
 
-    brew install --cask --no-quarantine stiven-gjekaj/tap/hotdogstand
+    brew install --cask stiven-gjekaj/tap/hotdogstand
 
 The cask installs the macOS application of the release, for Apple silicon and
-for Intel. No paid certificate signs it, so `--no-quarantine` keeps macOS from
-refusing to open it. `scripts/homebrew-cask.sh` in the HotDogStand repository
-writes `Casks/hotdogstand.rb` from the `SHA256SUMS` of each release.
+for Intel. No paid certificate signs it, so macOS asks before it opens it the
+first time: open System Settings, then Privacy & Security, and choose Open
+Anyway. `scripts/homebrew-cask.sh` in the HotDogStand repository writes
+`Casks/hotdogstand.rb` from the `SHA256SUMS` of each release.
 
 ## AllTheTools
 
