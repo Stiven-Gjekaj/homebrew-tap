@@ -1,8 +1,8 @@
 # scripts/homebrew-cask.sh in the HotDogStand repository writes this file
 # from the SHA256SUMS of the release. Change the script, and not this file.
 cask "hotdogstand" do
-  version "0.1.1"
-  sha256 "0e138d693fa279d87658d650ab0320fab3278e1c2624570c200bf7792814c9e1"
+  version "0.2.0"
+  sha256 "6e817b77c7839508a01be975e719a9e8ac0a7f2d50e24bd8922f86c7057b6375"
 
   url "https://github.com/Stiven-Gjekaj/HotDogStand/releases/download/v#{version}/HotDogStand-macos-universal.zip"
   name "HotDogStand"
