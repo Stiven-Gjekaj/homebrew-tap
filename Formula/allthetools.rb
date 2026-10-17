@@ -7,23 +7,23 @@ class Allthetools < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v0.9.0/att-0.9.0-aarch64-apple-darwin"
-      sha256 "5dc5fcb442775997db39cd2a8de7ee96f56bc1ce8ddf77a19b99bd410f927537"
+      url "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v1.0.0/att-1.0.0-aarch64-apple-darwin"
+      sha256 "4de19881f74439c5a056688f22f2369b5299f1ec8d49e070dc456b5395d5bd7f"
     end
     on_intel do
-      url "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v0.9.0/att-0.9.0-x86_64-apple-darwin"
-      sha256 "8def85d60aab73f30aa3a57cca5b4f095e1a10705aa7f4174e23bcac3ba70f03"
+      url "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v1.0.0/att-1.0.0-x86_64-apple-darwin"
+      sha256 "760515abe6b3a5c583a6e591b4458346f546c7057ad78d49ad3a0392c1cb9d47"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v0.9.0/att-0.9.0-aarch64-unknown-linux-musl"
-      sha256 "0951a40bb9e8438118f18a7948b43985a681ed2913bc1ce7aff8e0485b7c2db1"
+      url "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v1.0.0/att-1.0.0-aarch64-unknown-linux-musl"
+      sha256 "983420ff58029826fee6b739d8c2b8a7d02e5f16a459be507e1f8a1abd6dd098"
     end
     on_intel do
-      url "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v0.9.0/att-0.9.0-x86_64-unknown-linux-musl"
-      sha256 "f13fa0c09f2cd589d7e7159becb4412be9e068b480af54075e9cbbbba05445e8"
+      url "https://github.com/Stiven-Gjekaj/AllTheTools/releases/download/v1.0.0/att-1.0.0-x86_64-unknown-linux-musl"
+      sha256 "a59b5ee75882737cde4d065e3e8199d44ea0f6e625ad0d6bf6b5518a6969196e"
     end
   end
 
