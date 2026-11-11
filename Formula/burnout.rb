@@ -7,23 +7,23 @@ class Burnout < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Stiven-Gjekaj/burnout/releases/download/v2.0.0/burnout-2.0.0-aarch64-apple-darwin"
-      sha256 "f45cc2a4eab4c70cc9d8c935bbb49f97b4e9b6a9ad51265bbc181c24a6fec1c8"
+      url "https://github.com/Stiven-Gjekaj/burnout/releases/download/v2.1.0/burnout-2.1.0-aarch64-apple-darwin"
+      sha256 "22658e1d4592233c5019ded193e24d3b8a430581643d9eb98996c249fdf09738"
     end
     on_intel do
-      url "https://github.com/Stiven-Gjekaj/burnout/releases/download/v2.0.0/burnout-2.0.0-x86_64-apple-darwin"
-      sha256 "e33a92faefbd3a8ac7d95fd04025810581f74886494b1b45c3d4c90d245daa45"
+      url "https://github.com/Stiven-Gjekaj/burnout/releases/download/v2.1.0/burnout-2.1.0-x86_64-apple-darwin"
+      sha256 "abeb0c38ae576aef8a900bd02ee696987b75ccb139865c4ca3a9d239bdb8bc80"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Stiven-Gjekaj/burnout/releases/download/v2.0.0/burnout-2.0.0-aarch64-unknown-linux-musl"
-      sha256 "ab8758adb13b79491fa7ec363dd620674cb47d36c52849aa0037eed9eb9ad631"
+      url "https://github.com/Stiven-Gjekaj/burnout/releases/download/v2.1.0/burnout-2.1.0-aarch64-unknown-linux-musl"
+      sha256 "b2ff0063686d8c3fb4582362e7eefb9f2a628882e621409b6a23d5a31cd57530"
     end
     on_intel do
-      url "https://github.com/Stiven-Gjekaj/burnout/releases/download/v2.0.0/burnout-2.0.0-x86_64-unknown-linux-musl"
-      sha256 "e7eeb9adc23df45583381bbdc0ac38cf288115b239634a9b21c116a35a74a5a4"
+      url "https://github.com/Stiven-Gjekaj/burnout/releases/download/v2.1.0/burnout-2.1.0-x86_64-unknown-linux-musl"
+      sha256 "db8add2bf44e912f1ed63eb4a3254ce7d427834045a1c2c61576cd25b5a9ec41"
     end
   end
 
