@@ -1,8 +1,8 @@
 # scripts/homebrew-cask.sh in the OnyxDiskInfo repository writes this file
 # from the SHA256SUMS of the release. Change the script, and not this file.
 cask "onyxdiskinfo" do
-  version "0.2.0"
-  sha256 "7195f3d7fb882e499538d53157567388b7f2a39458e22886ef4409f0c6476782"
+  version "1.0.0"
+  sha256 "0abc3f7fbe13288762d3699ab55bd9932df1eef2a883724aa221599ce02312ff"
 
   url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v#{version}/OnyxDiskInfo-#{version}-macos-universal.zip"
   name "OnyxDiskInfo"
