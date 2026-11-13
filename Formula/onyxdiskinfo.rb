@@ -3,28 +3,28 @@
 class Onyxdiskinfo < Formula
   desc "Reads the health of every disk, and tests, formats and erases it"
   homepage "https://github.com/Stiven-Gjekaj/OnyxDiskInfo"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v1.0.0/onyx-1.0.0-aarch64-apple-darwin"
-      sha256 "7c160c305540c221c57cdbdff2c5d610d40b329f87a5cd23ca57a2b304a85a45"
+      url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v1.1.0/onyx-1.1.0-aarch64-apple-darwin"
+      sha256 "ea07ca9eed580f154dd06bfffe928b20bcee8b5e5621f1b2ab8d9828d1fe48cc"
     end
     on_intel do
-      url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v1.0.0/onyx-1.0.0-x86_64-apple-darwin"
-      sha256 "83307557d844ad8da41ac7cff2fd59c6a41b2ad6b45055d66896ee8b773a2ba0"
+      url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v1.1.0/onyx-1.1.0-x86_64-apple-darwin"
+      sha256 "a10d4f3fb86fe3fbd64b20cbb8d50e5ea7261b78cc5175db5e8ab17cd55aebef"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v1.0.0/onyx-1.0.0-aarch64-unknown-linux-musl"
-      sha256 "b87fc19bb2b81909343b99e328b9370224dbc41ae979d8aba1415340ebb3d440"
+      url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v1.1.0/onyx-1.1.0-aarch64-unknown-linux-musl"
+      sha256 "e6a4ca9c0986bb7e8af56531c3683815490ffd54191c9da9d45be2caba23cbb7"
     end
     on_intel do
-      url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v1.0.0/onyx-1.0.0-x86_64-unknown-linux-musl"
-      sha256 "5844dcfe2d0474edd1d72fd1b7edbe4918fbc861b96dc600608de949c00297cd"
+      url "https://github.com/Stiven-Gjekaj/OnyxDiskInfo/releases/download/v1.1.0/onyx-1.1.0-x86_64-unknown-linux-musl"
+      sha256 "bf400346a09dba3dc8140165bdb17fed203348eca391fd84ef4a23f5e8958eb6"
     end
   end
 
