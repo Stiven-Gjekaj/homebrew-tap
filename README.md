@@ -1,5 +1,10 @@
 # The Homebrew tap of Burnout, mimikr, HotDogStand, AllTheTools and OnyxDiskInfo
 
+Homebrew 7 loads a formula or a cask of another tap only when you trust that
+tap. Trust this tap once before you install from it:
+
+    brew trust stiven-gjekaj/tap
+
 [Burnout](https://github.com/Stiven-Gjekaj/burnout) writes a bootable USB
 drive from the command line. The commands are the same on Windows, on macOS
 and on Linux.
